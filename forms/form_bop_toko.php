@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Flat Able - Premium Admin Template by Phoenixcoded</title>
+    <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 11]>
+    	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    	<![endif]-->
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="">
+    <meta name="author" content="Phoenixcoded" />
+    <!-- Favicon icon -->
+    <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- vendor css -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+
+
+</head>
+
+<body class="">
+    <!-- [ Pre-loader ] start -->
+    <div class="loader-bg">
+        <div class="loader-track">
+            <div class="loader-fill"></div>
+        </div>
+    </div>
+    <!-- [ Pre-loader ] End -->
+    <!-- [ navigation menu ] start -->
+    <nav class="pcoded-navbar  ">
+        <div class="navbar-wrapper  ">
+            <div class="navbar-content scroll-div ">
+                <div class="">
+                    <div class="main-menu-header">
+                        <img class="img-radius" src="../assets/images/user/avatar-2.jpg" alt="User-Profile-Image" />
+                        <div class="user-details">
+                            <span>User</span>
+                            <div id="more-details">Jabatan<i class="fa fa-chevron-down m-l-5"></i></div>
+                        </div>
+                    </div>
+                    <div class="collapse" id="nav-user-link">
+                        <ul class="list-unstyled">
+                            <li class="list-group-item">
+                                <a href="auth-normal-sign-in.html">
+                                    <i class="feather icon-log-out m-r-5"></i>
+                                    Logout
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <ul class="nav pcoded-inner-navbar ">
+                    <li class="nav-item pcoded-menu-caption">
+                        <label>Navigation</label>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link "><span class="pcoded-micon"><i
+                                    class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="../category.html" class="nav-link "><span class="pcoded-micon"><i
+                                    class="feather icon-edit"></i></span><span class="pcoded-mtext">Buat Baru</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- [ navigation menu ] end -->
+    <!-- [ Header ] start -->
+    <header class="navbar pcoded-header navbar-expand-lg navbar-light header-dark">
+
+
+        <div class="m-header">
+            <a class="mobile-menu" id="mobile-collapse" href="#!"><span></span></a>
+            <a href="#!" class="b-brand">
+                <!-- ========   change your logo hear   ============ -->
+                <img src="../assets/images/logo-rabbani.png" alt="" class="logo-rabbani">
+                <img src="../assets/images/logo-icon.png" alt="" class="logo-thumb">
+            </a>
+            <a href="#!" class="mob-toggler">
+                <i class="feather icon-more-vertical"></i>
+            </a>
+        </div>
+
+
+    </header>
+    <!-- [ Header ] end -->
+
+
+
+    <!-- [ Main Content ] start -->
+    <section class="pcoded-main-container">
+        <div class="pcoded-content">
+            <!-- [ breadcrumb ] start -->
+            <div class="page-header">
+                <div class="page-block">
+                    <div class="row align-items-center">
+                        <div class="col-md-12">
+                            <div class="page-header-title">
+                                <h5 class="m-b-10">Form BOP Toko</h5>
+                            </div>
+                            <ul class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="../index.html"><i
+                                            class="feather icon-home"></i></a>
+                                </li>
+                                <li class="breadcrumb-item"><a href="../category.html">Kategori</a></li>
+                                <li class="breadcrumb-item"><a href="#!">BOP Toko</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- [ breadcrumb ] end -->
+            <!-- [ Main Content ] start -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>INFO PENGAJUAN</h5>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="date">Tanggal Pengajuan</label>
+                                            <input type="date" class="form-control" id="date"
+                                                aria-describedby="dateHelp">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="Text">Lokasi Penggunaan</label>
+                                            <input type="text" class="form-control" id="Text">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="password">Tujuan Penggunaan</label>
+                                            <input type="password" class="form-control" id="password">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="password">Lokasi Beban/Biaya</label>
+                                            <input type="password" class="form-control" id="password">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>PEMBAYARAN</h5>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="date">Pembayaran
+                                                <small class="form-text text-muted">**Pilih berdasar kepentingan.</small>
+                                            </label>
+                                            <div class="input-group">
+                                                <div class="col-md-6">
+                                                    <div
+                                                        class="custom-control custom-radio custom-control-inline col-sm-6">
+                                                        <input type="radio" id="customRadioInline1"
+                                                            name="customRadioInline1" class="custom-control-input">
+                                                        <label class="custom-control-label"
+                                                            for="customRadioInline1">Budget tgl 5</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div
+                                                        class="custom-control custom-radio custom-control-inline col-sm-6">
+                                                        <input type="radio" id="customRadioInline2"
+                                                            name="customRadioInline1" class="custom-control-input">
+                                                        <label class="custom-control-label"
+                                                            for="customRadioInline2">Mendesak</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="Text">Cara Pembayaran</label>
+                                            <input type="text" class="form-control" id="Text">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="password">Mata Uang</label>
+                                            <input type="password" class="form-control" id="password">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="password">Rekening Tujuan
+                                                Transfer</label>
+                                            <input type="password" class="form-control" id="password">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="password">Account Tujuan Transfer</label>
+                                            <input type="password" class="form-control" id="password">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="password">Total Biaya</label>
+                                            <input type="password" class="form-control" id="password">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="exampleFormControlTextarea1">
+                                                <h5>CATATAN TAMBAHAN</h5>
+                                            </label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <form id="group-barang-dibeli">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <div class="icon-dynamic-wrapper">
+                                                <label class="mr-2" for="exampleFormControlTextarea1">
+                                                    <h5>DETAIL KEBUTUHAN BOP TOKO</h5>
+                                                </label>
+                                                <h5>
+                                                    <ion-icon class="btn-sm btn-info icon-dynamic"
+                                                        id="add-barang-dibeli" name="add-circle">
+                                                    </ion-icon>
+                                                </h5>
+                                                <h5>
+                                                    <ion-icon class="btn-sm btn-info icon-dynamic"
+                                                        id="hapus-barang-dibeli" name="remove-circle"></ion-icon>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="div1" class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" id="item1" disabled
+                                                value="Item" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled value="Vendor">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled
+                                                value="Keterangan">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled value="Qty">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled value="Harga">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="exampleFormControlTextarea1">
+                                                <h5>BUKTI TAMBAHAN</h5>
+                                            </label>
+                                            <div class="row">
+                                                <div class="col-sm-2">
+                                                    <div class="form-group">
+                                                        <div class="custom-upload-wrapper">
+                                                            <!-- actual upload which is hidden -->
+                                                            <input type="file" name="file1" id="actual-btn1" hidden />
+
+                                                            <!-- our custom upload button -->
+                                                            <label class="custom-upload" for="actual-btn1">
+                                                                <ion-icon size="large" name="cloud-upload"></ion-icon>
+                                                            </label>
+                                                            <br />
+                                                            <!-- name of file chosen -->
+                                                            <span id="file-chosen1">No file chosen</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <div class="form-group">
+                                                        <div class="custom-upload-wrapper">
+                                                            <!-- actual upload which is hidden -->
+                                                            <input type="file" name="file2" id="actual-btn2" hidden />
+
+                                                            <!-- our custom upload button -->
+                                                            <label class="custom-upload" for="actual-btn2">
+                                                                <ion-icon size="large" name="cloud-upload"></ion-icon>
+                                                            </label>
+                                                            <br />
+                                                            <!-- name of file chosen -->
+                                                            <span id="file-chosen2">No file chosen</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <div class="form-group">
+                                                        <div class="custom-upload-wrapper">
+                                                            <!-- actual upload which is hidden -->
+                                                            <input type="file" name="file3" id="actual-btn3" hidden />
+
+                                                            <!-- our custom upload button -->
+                                                            <label class="custom-upload" for="actual-btn3">
+                                                                <ion-icon size="large" name="cloud-upload"></ion-icon>
+                                                            </label>
+                                                            <br />
+                                                            <!-- name of file chosen -->
+                                                            <span id="file-chosen3">No file chosen</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <div class="form-group">
+                                                        <div class="custom-upload-wrapper">
+                                                            <!-- actual upload which is hidden -->
+                                                            <input type="file" name="file4" id="actual-btn4" hidden />
+
+                                                            <!-- our custom upload button -->
+                                                            <label class="custom-upload" for="actual-btn4">
+                                                                <ion-icon size="large" name="cloud-upload"></ion-icon>
+                                                            </label>
+                                                            <br />
+                                                            <!-- name of file chosen -->
+                                                            <span id="file-chosen4">No file chosen</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <div class="form-group">
+                                                        <div class="custom-upload-wrapper">
+                                                            <!-- actual upload which is hidden -->
+                                                            <input type="file" name="file5" id="actual-btn5" hidden />
+
+                                                            <!-- our custom upload button -->
+                                                            <label class="custom-upload" for="actual-btn5">
+                                                                <ion-icon size="large" name="cloud-upload"></ion-icon>
+                                                            </label>
+                                                            <br />
+                                                            <!-- name of file chosen -->
+                                                            <span id="file-chosen5">No file chosen</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <div class="form-group">
+                                                        <div class="custom-upload-wrapper">
+                                                            <!-- actual upload which is hidden -->
+                                                            <input type="file" name="file6" id="actual-btn6" hidden />
+
+                                                            <!-- our custom upload button -->
+                                                            <label class="custom-upload" for="actual-btn6">
+                                                                <ion-icon size="large" name="cloud-upload"></ion-icon>
+                                                            </label>
+                                                            <br />
+                                                            <!-- name of file chosen -->
+                                                            <span id="file-chosen6">No file chosen</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <a href="../category.html"><button type="button"
+                                            class="btn btn-warning mt-5 font-weight-bold">Kembali</button></a>
+                                    <button class="btn btn-primary mt-5 font-weight-bold" type="submit">Submit form</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- [ Main Content ] end -->
+
+        </div>
+    </section>
+
+    <!-- Required Js -->
+    <script src="../assets/js/vendor-all.min.js"></script>
+    <script src="../assets/js/plugins/bootstrap.min.js"></script>
+    <script src="../assets/js/pcoded.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var i = 2;
+            $('#add-barang-dibeli').click(function (event) {
+                // if(i > 2) {
+                //     alert("Tidak bisa input lagi!");
+                //     return false;
+                // }
+                var div = $(document.createElement('div')).attr("id", 'div' + i);
+                div.after()
+                    .html('<div class="row">\
+                                <div class="col-sm-2">\
+                                    <div class="form-group">\
+                                        <input type="text"' + i + ' "id="item"' + i +
+                        '" class="form-control" name="item"' + i + '">\
+                                    </div>\
+                                </div>\
+                                <div class="col-sm-2">\
+                                    <div class="form-group">\
+                                        <input type="text" class="form-control" name="vendor"' + i + '">\
+                                    </div>\
+                                </div>\
+                                <div class="col-sm-5">\
+                                    <div class="form-group">\
+                                        <input type="text" class="form-control" name="keterangan"' + i + '">\
+                                    </div>\
+                                </div>\
+                                <div class="col-sm-1">\
+                                    <div class="form-group">\
+                                        <input type="text" class="form-control" name="qty"' + i + '">\
+                                    </div>\
+                                </div>\
+                                <div class="col-sm-2">\
+                                    <div class="form-group">\
+                                        <input type="text" class="form-control" name="harga"' + i + '">\
+                                    </div>\
+                                </div>\
+                            </div>')
+                div.appendTo("#group-barang-dibeli");
+                i++;
+            });
+
+            $("#hapus-barang-dibeli").click(function () {
+                if (i == 2) {
+                    alert("Tidak ada input field untuk dihapus!");
+                    return false;
+                }
+                i--;
+                $("#div" + i).remove();
+            })
+        });
+    </script>
+
+
+    <!-- Custom Upload File-->
+    <script>
+        const actualBtn1 = document.getElementById('actual-btn1');
+
+        const fileChosen1 = document.getElementById('file-chosen1');
+
+        actualBtn1.addEventListener('change', function () {
+            fileChosen1.textContent = this.files[0].name
+        })
+    </script>
+
+
+    <script>
+        const actualBtn2 = document.getElementById('actual-btn2');
+
+        const fileChosen2 = document.getElementById('file-chosen2');
+
+        actualBtn2.addEventListener('change', function () {
+            fileChosen2.textContent = this.files[0].name
+        })
+    </script>
+
+
+    <script>
+        const actualBtn3 = document.getElementById('actual-btn3');
+
+        const fileChosen3 = document.getElementById('file-chosen3');
+
+        actualBtn3.addEventListener('change', function () {
+            fileChosen3.textContent = this.files[0].name
+        })
+    </script>
+
+
+    <script>
+        const actualBtn4 = document.getElementById('actual-btn4');
+
+        const fileChosen4 = document.getElementById('file-chosen4');
+
+        actualBtn4.addEventListener('change', function () {
+            fileChosen4.textContent = this.files[0].name
+        })
+    </script>
+
+
+    <script>
+        const actualBtn5 = document.getElementById('actual-btn5');
+
+        const fileChosen5 = document.getElementById('file-chosen5');
+
+        actualBtn5.addEventListener('change', function () {
+            fileChosen5.textContent = this.files[0].name
+        })
+    </script>
+
+
+    <script>
+        const actualBtn6 = document.getElementById('actual-btn6');
+
+        const fileChosen6 = document.getElementById('file-chosen6');
+
+        actualBtn6.addEventListener('change', function () {
+            fileChosen6.textContent = this.files[0].name
+        })
+    </script>
+
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

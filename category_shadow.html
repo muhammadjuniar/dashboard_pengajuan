@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Flat Able - Premium Admin Template by Phoenixcoded</title>
+    <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 11]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Phoenixcoded" />
+    <!-- Favicon icon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+    <!-- vendor css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body class="">
+    <!-- [ Pre-loader ] start -->
+    <div class="loader-bg">
+        <div class="loader-track">
+            <div class="loader-fill"></div>
+        </div>
+    </div>
+    <!-- [ Pre-loader ] End -->
+    <!-- [ navigation menu ] start -->
+    <nav class="pcoded-navbar">
+        <div class="navbar-wrapper">
+            <div class="navbar-content scroll-div">
+
+                <div class="">
+                    <div class="main-menu-header">
+                        <img class="img-radius" src="assets/images/user/avatar-2.jpg" alt="User-Profile-Image" />
+                        <div class="user-details">
+                            <span>User</span>
+                            <div id="more-details">Jabatan<i class="fa fa-chevron-down m-l-5"></i></div>
+                        </div>
+                    </div>
+                    <div class="collapse" id="nav-user-link">
+                        <ul class="list-unstyled">
+                            <li class="list-group-item">
+                                <a href="auth-normal-sign-in.html">
+                                    <i class="feather icon-log-out m-r-5"></i>
+                                    Logout
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <ul class="nav pcoded-inner-navbar">
+                    <li class="nav-item pcoded-menu-caption">
+                        <label>Navigation</label>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link "><span class="pcoded-micon"><i
+                                    class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="category.html" class="nav-link "><span class="pcoded-micon"><i
+                                    class="feather icon-edit"></i></span><span class="pcoded-mtext">Buat Baru</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- [ navigation menu ] end -->
+    <!-- [ Header ] start -->
+    <header class="navbar pcoded-header navbar-expand-lg navbar-light header-dark">
+        <div class="m-header">
+            <a class="mobile-menu" id="mobile-collapse" href="#!"><span></span></a>
+            <a href="#!" class="b-brand">
+                <!-- ========   change your logo hear   ============ -->
+                <img src="assets/images/logo-rabbani.png" alt="" class="logo-rabbani">
+                <img src="assets/images/logo-icon.png" alt="" class="logo-thumb" />
+            </a>
+            <a href="#!" class="mob-toggler">
+                <i class="feather icon-more-vertical"></i>
+            </a>
+        </div>
+    </header>
+    <!-- [ Header ] end -->
+
+    <!-- [ Main Content ] start -->
+    <div class="pcoded-main-container">
+        <div class="pcoded-content">
+            <!-- [ breadcrumb ] start -->
+            <div class="page-header">
+                <div class="page-block">
+                    <div class="row align-items-center">
+                        <div class="col-md-12">
+                            <div class="page-header-title">
+                                <h5 class="m-b-10">Kategori Pengajuan</h5>
+                            </div>
+                            <ul class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a href="index.html"><i class="feather icon-home"></i></a>
+                                </li>
+                                <li class="breadcrumb-item"><a href="#!">Kategori</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- [ breadcrumb ] end -->
+            <!-- [ Main Content ] start -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <!-- table card-1 start -->
+                                    <div class="col-md-12 col-xl-6">
+                                        <!-- widget primary card start -->
+                                        <a class="category-wrapper btn mb-2 ml-5" data-toggle="collapse"
+                                            href="#pembelian" role="button" aria-expanded="false"
+                                            aria-controls="pembelian">
+                                            <div class="col-sm-2 icon">
+                                                <ion-icon size="large" name="cart-outline"></ion-icon>
+                                            </div>
+                                            <div class="col-sm-7 content">
+                                                <div class="text">PEMBELIAN</div>
+                                            </div>
+                                        </a>
+                                        <div class="row mb-2 ml-5">
+                                            <div class="col-sm-8">
+                                                <div class="collapse multi-collapse mt-2" id="pembelian">
+                                                    <div class="category-card-shadow">
+                                                        <div class="category-card-body">
+                                                            <div class="sub-category" data-toggle="collapse"
+                                                                href="#inventaris" role="button" aria-expanded="false"
+                                                                aria-controls="inventaris">
+                                                                INVENTARIS
+                                                            </div>
+                                                            <div class="collapse multi-collapse mt-2" id="inventaris">
+                                                                <div class="category-card-body">
+                                                                    <a href="forms/form_pembelian_inventaris_baru.html">
+                                                                        <div class="sub-sub-category">PRODUK BARU
+                                                                        </div>
+                                                                    </a>
+                                                                    <a
+                                                                        href="forms/form_pembelian_inventaris_pengganti.html">
+                                                                        <div class="sub-sub-category">PRODUK
+                                                                            PENGGANTI</div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <a href="forms/form_pembelian_non_inventaris.html">
+                                                                <div class="sub-category">NON INVENTARIS</div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- widget primary card end -->
+                                    </div>
+                                    <!-- table card-1 end -->
+                                    <!-- table card-2 start -->
+                                    <div class="col-md-12 col-xl-6">
+                                        <!-- widget primary card start -->
+                                        <a class="category-wrapper btn mb-2" href="forms/form_sewa.html" role="button"
+                                            aria-expanded="false" aria-controls="sewa">
+                                            <div class="col-sm-2 icon">
+                                                <ion-icon size="large" name="business-outline"></ion-icon>
+                                            </div>
+                                            <div class="col-sm-7 content">
+                                                <div class="text">SEWA</div>
+                                            </div>
+                                        </a>
+                                        <div class="row mb-2 ml-2">
+                                            <div class="col-sm-8">
+                                                <div class="collapse multi-collapse mt-2" id="sewa">
+                                                    <div class="category-card">
+                                                        <div class="category-card-body">
+                                                            <div class="sub-category">BARANG</div>
+                                                            <div class="sub-category">TEMPAT</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- widget primary card end -->
+                                    </div>
+                                    <!-- table card-2 end -->
+
+                                    <!-- table card-1 start -->
+                                    <div class="col-md-12 col-xl-6">
+                                        <!-- widget primary card start -->
+                                        <a class="category-wrapper btn mb-2 ml-5" href="forms/form_pajak.html"
+                                            role="button" aria-expanded="false" aria-controls="pajak">
+                                            <div class="col-sm-2 icon">
+                                                <ion-icon size="large" name="receipt-outline"></ion-icon>
+                                            </div>
+                                            <div class="col-sm-7 content">
+                                                <div class="text">PAJAK</div>
+                                            </div>
+                                        </a>
+                                        <div class="row mb-2 ml-5">
+                                            <!-- <div class="col-sm-8">
+                                                <div class="collapse multi-collapse mt-2" id="pajak">
+                                                    <div class="category-card">
+                                                        <div class="category-card-body">
+                                                            <div class="sub-category">INVENTARIS</div>
+                                                            <div class="sub-category">NON INVENTARIS</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                        <!-- widget primary card end -->
+                                    </div>
+                                    <!-- table card-1 end -->
+                                    <!-- table card-2 start -->
+                                    <div class="col-md-12 col-xl-6">
+                                        <!-- widget primary card start -->
+                                        <a class="category-wrapper btn mb-2" href="forms/form_promo.html" role="button"
+                                            aria-expanded="false" aria-controls="promo">
+                                            <div class="col-sm-2 icon">
+                                                <ion-icon size="large" name="megaphone-outline"></ion-icon>
+                                            </div>
+                                            <div class="col-sm-7 content">
+                                                <div class="text">PROMO</div>
+                                            </div>
+                                        </a>
+                                        <div class="row mb-2 ml-2">
+                                            <div class="col-sm-8">
+                                                <div class="collapse multi-collapse mt-2" id="promo">
+                                                    <div class="category-card">
+                                                        <div class="category-card-body">
+                                                            <div class="sub-category">BUAT BARU</div>
+                                                            <div class="sub-category">NON INVENTARIS</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- widget primary card end -->
+                                    </div>
+                                    <!-- table card-2 end -->
+
+                                    <!-- table card-1 start -->
+                                    <div class="col-md-12 col-xl-6">
+                                        <!-- widget primary card start -->
+                                        <a class="category-wrapper btn mb-2 ml-5" href="forms/form_perjalanan.html"
+                                            role="button" aria-expanded="false" aria-controls="perjalanan">
+                                            <div class="col-sm-2 icon">
+                                                <ion-icon size="large" name="airplane-outline"></ion-icon>
+                                            </div>
+                                            <div class="col-sm-7 content">
+                                                <div class="text">PERJALANAN</div>
+                                            </div>
+                                        </a>
+                                        <div class="row mb-2 ml-5">
+                                            <div class="col-sm-8">
+                                                <div class="collapse multi-collapse mt-2" id="perjalanan">
+                                                    <div class="category-card">
+                                                        <div class="category-card-body">
+                                                            <div class="sub-category">KUNJUNGAN</div>
+                                                            <div class="sub-category">SURVEY</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- widget primary card end -->
+                                    </div>
+                                    <!-- table card-1 end -->
+                                    <!-- table card-2 start -->
+                                    <div class="col-md-12 col-xl-6">
+                                        <!-- widget primary card start -->
+                                        <a class="category-wrapper btn mb-2" href="forms/form_bop_toko.html"
+                                            role="button" aria-expanded="false" aria-controls="boptoko">
+                                            <div class="col-sm-2 icon">
+                                                <ion-icon size="large" name="storefront-outline"></ion-icon>
+                                            </div>
+                                            <div class="col-sm-7 content">
+                                                <div class="text">BOP TOKO</div>
+                                            </div>
+                                        </a>
+                                        <div class="row mb-2 ml-2">
+                                            <div class="col-sm-8">
+                                                <div class="collapse multi-collapse mt-2" id="boptoko">
+                                                    <div class="category-card">
+                                                        <div class="category-card-body">
+                                                            <div class="sub-category">PEMBUKAAN BARU</div>
+                                                            <div class="sub-category">PERPANJANGAN</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- widget primary card end -->
+                                    </div>
+                                    <!-- table card-2 end -->
+
+
+                                    <!-- table card-1 start -->
+                                    <div class="col-md-12 col-xl-6">
+                                        <!-- widget primary card start -->
+                                        <a class="category-wrapper btn mb-2 ml-5"
+                                            href="forms/form_service_maintenance.html" role="button"
+                                            aria-expanded="false" aria-controls="servicemaintenance">
+                                            <div class="col-sm-2 icon">
+                                                <ion-icon size="large" name="construct-outline"></ion-icon>
+                                            </div>
+                                            <div class="col-sm-7 content">
+                                                <div class="text">SERVICE / MAINTENANCE</div>
+                                            </div>
+                                        </a>
+                                        <div class="row mb-2 ml-5">
+                                            <div class="col-sm-8">
+                                                <div class="collapse multi-collapse mt-2" id="servicemaintenance">
+                                                    <div class="category-card">
+                                                        <div class="category-card-body">
+                                                            <div class="sub-category">INVENTARIS</div>
+                                                            <div class="sub-category">NON INVENTARIS</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- widget primary card end -->
+                                    </div>
+                                    <!-- table card-1 end -->
+                                    <!-- table card-2 start -->
+                                    <div class="col-md-12 col-xl-6">
+                                        <!-- widget primary card start -->
+                                        <a class="category-wrapper btn mb-2" href="forms/form_other.html" role="button"
+                                            aria-expanded="false" aria-controls="other">
+                                            <div class="col-sm-2 icon">
+                                                <ion-icon size="large" name="code-working-outline"></ion-icon>
+                                            </div>
+                                            <div class="col-sm-7 content">
+                                                <div class="text">LAIN-LAIN</div>
+                                            </div>
+                                        </a>
+                                        <div class="row mb-2 ml-2">
+                                            <div class="col-sm-8">
+                                                <div class="collapse multi-collapse mt-2" id="other">
+                                                    <div class="category-card">
+                                                        <div class="category-card-body">
+                                                            <div class="sub-category">INVENTARIS</div>
+                                                            <div class="sub-category">NON INVENTARIS</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- widget primary card end -->
+                                    </div>
+                                    <!-- table card-2 end -->
+                                </div>
+                                <!-- table card-1 end -->
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- [ Main Content ] end -->
+    </div>
+    </div>
+    <!-- [ Main Content ] end -->
+
+    <!-- Required Js -->
+    <script src="assets/js/vendor-all.min.js"></script>
+    <script src="assets/js/plugins/bootstrap.min.js"></script>
+    <script src="assets/js/pcoded.min.js"></script>
+
+    <!-- Apex Chart -->
+    <script src="assets/js/plugins/apexcharts.min.js"></script>
+
+    <!-- custom-chart js -->
+    <script src="assets/js/pages/dashboard-main.js"></script>
+
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

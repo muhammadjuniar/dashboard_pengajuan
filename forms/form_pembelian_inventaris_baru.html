@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Flat Able - Premium Admin Template by Phoenixcoded</title>
+    <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 11]>
+    	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    	<![endif]-->
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="">
+    <meta name="author" content="Phoenixcoded" />
+    <!-- Favicon icon -->
+    <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- vendor css -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+
+
+</head>
+
+<body class="">
+    <!-- [ Pre-loader ] start -->
+    <div class="loader-bg">
+        <div class="loader-track">
+            <div class="loader-fill"></div>
+        </div>
+    </div>
+    <!-- [ Pre-loader ] End -->
+    <!-- [ navigation menu ] start -->
+    <nav class="pcoded-navbar  ">
+        <div class="navbar-wrapper  ">
+            <div class="navbar-content scroll-div ">
+                <div class="">
+                    <div class="main-menu-header">
+                        <img class="img-radius" src="../assets/images/user/avatar-2.jpg" alt="User-Profile-Image" />
+                        <div class="user-details">
+                            <span>User</span>
+                            <div id="more-details">Jabatan<i class="fa fa-chevron-down m-l-5"></i></div>
+                        </div>
+                    </div>
+                    <div class="collapse" id="nav-user-link">
+                        <ul class="list-unstyled">
+                            <li class="list-group-item">
+                                <a href="auth-normal-sign-in.html">
+                                    <i class="feather icon-log-out m-r-5"></i>
+                                    Logout
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <ul class="nav pcoded-inner-navbar ">
+                    <li class="nav-item pcoded-menu-caption">
+                        <label>Navigation</label>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link "><span class="pcoded-micon"><i
+                                    class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="../category.html" class="nav-link "><span class="pcoded-micon"><i
+                                    class="feather icon-edit"></i></span><span class="pcoded-mtext">Buat Baru</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- [ navigation menu ] end -->
+    <!-- [ Header ] start -->
+    <header class="navbar pcoded-header navbar-expand-lg navbar-light header-dark">
+
+
+        <div class="m-header">
+            <a class="mobile-menu" id="mobile-collapse" href="#!"><span></span></a>
+            <a href="#!" class="b-brand">
+                <!-- ========   change your logo hear   ============ -->
+                <img src="../assets/images/logo-rabbani.png" alt="" class="logo-rabbani">
+                <img src="../assets/images/logo-icon.png" alt="" class="logo-thumb">
+            </a>
+            <a href="#!" class="mob-toggler">
+                <i class="feather icon-more-vertical"></i>
+            </a>
+        </div>
+
+
+    </header>
+    <!-- [ Header ] end -->
+
+
+
+    <!-- [ Main Content ] start -->
+    <section class="pcoded-main-container">
+        <div class="pcoded-content">
+            <!-- [ breadcrumb ] start -->
+            <div class="page-header">
+                <div class="page-block">
+                    <div class="row align-items-center">
+                        <div class="col-md-12">
+                            <div class="page-header-title">
+                                <h5 class="m-b-10">Form Pembelian Produk Baru</h5>
+                            </div>
+                            <ul class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="../index.html"><i
+                                            class="feather icon-home"></i></a>
+                                </li>
+                                <li class="breadcrumb-item"><a href="../category.html">Kategori</a></li>
+                                <li class="breadcrumb-item"><a href="../category.html">Inventaris</a></li>
+                                <li class="breadcrumb-item"><a href="#!">Produk Baru</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- [ breadcrumb ] end -->
+            <!-- [ Main Content ] start -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>INFO PENGAJUAN</h5>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="date">Tanggal Pengajuan</label>
+                                            <input type="date" class="form-control" id="date"
+                                                aria-describedby="dateHelp">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="Text">Lokasi Penggunaan</label>
+                                            <input type="text" class="form-control" id="Text">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="password">Tujuan Penggunaan</label>
+                                            <input type="password" class="form-control" id="password">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="password">Lokasi Beban/Biaya</label>
+                                            <input type="password" class="form-control" id="password">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>PEMBAYARAN</h5>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="date">Pembayaran
+                                                <small class="form-text text-muted">**Pilih berdasar kepentingan.</small>
+                                            </label>
+                                            <div class="input-group">
+                                                <div class="col-md-6">
+                                                    <div
+                                                        class="custom-control custom-radio custom-control-inline col-sm-6">
+                                                        <input type="radio" id="customRadioInline1"
+                                                            name="customRadioInline1" class="custom-control-input">
+                                                        <label class="custom-control-label"
+                                                            for="customRadioInline1">Budget tgl 5</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div
+                                                        class="custom-control custom-radio custom-control-inline col-sm-6">
+                                                        <input type="radio" id="customRadioInline2"
+                                                            name="customRadioInline1" class="custom-control-input">
+                                                        <label class="custom-control-label"
+                                                            for="customRadioInline2">Mendesak</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="Text">Cara Pembayaran</label>
+                                            <input type="text" class="form-control" id="Text">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="password">Mata Uang</label>
+                                            <input type="password" class="form-control" id="password">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="password">Rekening Tujuan
+                                                Transfer</label>
+                                            <input type="password" class="form-control" id="password">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="password">Account Tujuan Transfer</label>
+                                            <input type="password" class="form-control" id="password">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="floating-label" for="password">Total Biaya</label>
+                                            <input type="password" class="form-control" id="password">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="exampleFormControlTextarea1">
+                                                <h5>CATATAN TAMBAHAN</h5>
+                                            </label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <form id="group-barang-dibeli">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <div class="icon-dynamic-wrapper">
+                                                <label class="mr-2" for="exampleFormControlTextarea1">
+                                                    <h5>DETAIL BARANG YANG DIBELI</h5>
+                                                </label>
+                                                <h5>
+                                                    <ion-icon class="btn-sm btn-info icon-dynamic"
+                                                        id="add-barang-dibeli" name="add-circle">
+                                                    </ion-icon>
+                                                </h5>
+                                                <h5>
+                                                    <ion-icon class="btn-sm btn-info icon-dynamic"
+                                                        id="hapus-barang-dibeli" name="remove-circle"></ion-icon>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="div1" class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" id="item1" disabled
+                                                value="Item">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled value="Brand">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled value="Model">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled value="Spec">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled value="Qty">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled value="Harga">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <form id="group-vendor-terpilih">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <div class="icon-dynamic-wrapper">
+                                                <label class="mr-2" for="exampleFormControlTextarea1">
+                                                    <h5>VENDOR TERPILIH</h5>
+                                                </label>
+                                                <h5>
+                                                    <ion-icon class="btn-sm btn-info icon-dynamic"
+                                                        id="add-vendor-terpilih" name="add-circle">
+                                                    </ion-icon>
+                                                </h5>
+                                                <h5>
+                                                    <ion-icon class="btn-sm btn-info icon-dynamic"
+                                                        id="hapus-vendor-terpilih" name="remove-circle"></ion-icon>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="div1" class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" id="nama_perusahaan1"
+                                                disabled value="Nama Perusahaan">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled
+                                                value="Lokasi Perusahaan">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled
+                                                value="Nama PIC">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled
+                                                value="No Kontak">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled
+                                                value="Website">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled
+                                                value="Total Penawaran">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <form id="group-vendor-pembanding">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <div class="icon-dynamic-wrapper">
+                                                <label class="mr-2" for="exampleFormControlTextarea1">
+                                                    <h5>VENDOR PEMBANDING</h5>
+                                                </label>
+                                                <h5>
+                                                    <ion-icon class="btn-sm btn-info icon-dynamic"
+                                                        id="add-vendor-pembanding" name="add-circle">
+                                                    </ion-icon>
+                                                </h5>
+                                                <h5>
+                                                    <ion-icon class="btn-sm btn-info icon-dynamic"
+                                                        id="hapus-vendor-pembanding" name="remove-circle"></ion-icon>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="div1" class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold"
+                                                id="nama_perusahaan_pembanding1" disabled value="Nama Perusahaan">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled
+                                                value="Lokasi Perusahaan">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled
+                                                value="Nama PIC">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled
+                                                value="No Kontak">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled
+                                                value="Website">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center font-weight-bold" disabled
+                                                value="Total Penawaran">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="exampleFormControlTextarea1">
+                                                <h5>DEPARTEMEN TERKAIT <small><i>(Analysist Suggestion)</i></small></h5>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <div class="custom-control custom-radio custom-control-inline col-sm-3">
+                                                <input type="radio" id="customRadioInline1" name="customRadioInline1"
+                                                    class="custom-control-input">
+                                                <label class="custom-control-label" for="customRadioInline1">IT</label>
+                                            </div>
+                                            <div class="custom-control custom-radio custom-control-inline col-sm-3">
+                                                <input type="radio" id="customRadioInline2" name="customRadioInline1"
+                                                    class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                    for="customRadioInline2">Property</label>
+                                            </div>
+                                            <div class="custom-control custom-radio custom-control-inline col-sm-3">
+                                                <input type="radio" id="customRadioInline3" name="customRadioInline1"
+                                                    class="custom-control-input">
+                                                <label class="custom-control-label" for="customRadioInline3">Tidak
+                                                    Ada</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <a href="../category.html"><button type="button"
+                                            class="btn btn-warning mt-5 font-weight-bold">Kembali</button></a>
+                                    <button class="btn btn-primary mt-5 font-weight-bold" type="submit">Submit form</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- [ Main Content ] end -->
+
+        </div>
+    </section>
+    <!-- [ Main Content ] end -->
+    <!-- Warning Section start -->
+    <!-- Older IE warning message -->
+    <!--[if lt IE 11]>
+        <div class="ie-warning">
+            <h1>Warning!!</h1>
+            <p>You are using an outdated version of Internet Explorer, please upgrade
+               <br/>to any of the following web browsers to access this website.
+            </p>
+            <div class="iew-container">
+                <ul class="iew-download">
+                    <li>
+                        <a href="http://www.google.com/chrome/">
+                            <img src="../assets/images/browser/chrome.png" alt="Chrome">
+                            <div>Chrome</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.mozilla.org/en-US/firefox/new/">
+                            <img src="../assets/images/browser/firefox.png" alt="Firefox">
+                            <div>Firefox</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.opera.com">
+                            <img src="../assets/images/browser/opera.png" alt="Opera">
+                            <div>Opera</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.apple.com/safari/">
+                            <img src="../assets/images/browser/safari.png" alt="Safari">
+                            <div>Safari</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                            <img src="../assets/images/browser/ie.png" alt="">
+                            <div>IE (11 & above)</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>Sorry for the inconvenience!</p>
+        </div>
+    <![endif]-->
+    <!-- Warning Section Ends -->
+
+    <!-- Required Js -->
+    <script src="../assets/js/vendor-all.min.js"></script>
+    <script src="../assets/js/plugins/bootstrap.min.js"></script>
+    <script src="../assets/js/pcoded.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var i = 2;
+            $('#add-barang-dibeli').click(function (event) {
+                // if(i > 2) {
+                //     alert("Tidak bisa input lagi!");
+                //     return false;
+                // }
+                var div = $(document.createElement('div')).attr("id", 'div' + i);
+                div.after()
+                    .html('<div class="row">\
+                                <div class="col-sm-2">\
+                                    <div class="form-group">\
+                                        <input type="text"' + i + ' "id="item"' + i +
+                        '" class="form-control" name="item"' + i + '">\
+                                    </div>\
+                                </div>\
+                                <div class="col-sm-2">\
+                                    <div class="form-group">\
+                                        <input type="text" class="form-control" name="brand"' + i + '">\
+                                    </div>\
+                                </div>\
+                                <div class="col-sm-2">\
+                                    <div class="form-group">\
+                                        <input type="text" class="form-control" name="model"' + i + '">\
+                                    </div>\
+                                </div>\
+                                <div class="col-sm-3">\
+                                    <div class="form-group">\
+                                        <input type="text" class="form-control" name="spec"' + i + '">\
+                                    </div>\
+                                </div>\
+                                <div class="col-sm-1">\
+                                    <div class="form-group">\
+                                        <input type="text" class="form-control" name="qty"' + i + '">\
+                                    </div>\
+                                </div>\
+                                <div class="col-sm-2">\
+                                    <div class="form-group">\
+                                        <input type="text" class="form-control" name="harga"' + i + '">\
+                                    </div>\
+                                </div>\
+                            </div>')
+                div.appendTo("#group-barang-dibeli");
+                i++;
+
+            });
+
+            $("#hapus-barang-dibeli").click(function () {
+                if (i == 2) {
+                    alert("Input tidak dapat di hapus");
+                    return false;
+                }
+                i--;
+                $("#div" + i).remove();
+            })
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            var i = 2;
+            $('#add-vendor-terpilih').click(function (event) {
+                var div = $(document.createElement('div')).attr("id", 'div' + i + "a");
+                div.after()
+                    .html('<div class="row">\
+                            <div class="col-sm-2">\
+                                <div class="form-group">\
+                                    <input type="text"' + i + ' "id="nama_perusahaan"' + i +
+                        ' class="form-control" name="nama_perusahaan"' + i + '>\
+                                </div>\
+                            </div>\
+                            <div class="col-sm-2">\
+                                <div class="form-group">\
+                                    <input type="text" class="form-control" name="lokasi_perusahaan"' + i + '">\
+                                </div>\
+                            </div>\
+                            <div class="col-sm-2">\
+                                <div class="form-group">\
+                                    <input type="text" class="form-control" name="nama_pic"' + i + '">\
+                                </div>\
+                            </div>\
+                            <div class="col-sm-2">\
+                                <div class="form-group">\
+                                    <input type="text" class="form-control" name="no_kontak"' + i + '">\
+                                </div>\
+                            </div>\
+                            <div class="col-sm-2">\
+                                <div class="form-group">\
+                                    <input type="text" class="form-control" name="website"' + i + '">\
+                                </div>\
+                            </div>\
+                            <div class="col-sm-2">\
+                                <div class="form-group">\
+                                    <input type="text" class="form-control" name="total_penawaran"' + i + '">\
+                                </div>\
+                            </div>\
+                            <div class="col-sm-2">\
+                                <div class="form-group">\
+                                    <div class="custom-upload-wrapper">\
+                                        <!-- actual upload which is hidden -->\
+                                        <input type="file" name="file"' + i + ' id="actual-btn"' + i + ' hidden />\
+                                        <!-- our custom upload button -->\
+                                        <label class="custom-upload" for="actual-btn"' + i + '>\
+                                            <ion-icon size="large" name="cloud-upload"></ion-icon>\
+                                        </label>\
+                                        <br />\
+                                        <!-- name of file chosen -->\
+                                        <span id="file-chosen"' + i + '>No file chosen</span>\
+                                    </div>\
+                                </div>\
+                            </div>\
+                        </div>')
+                div.appendTo("#group-vendor-terpilih");
+                i++;
+                console.log(div);
+
+            });
+
+            $("#hapus-vendor-terpilih").click(function () {
+                if (i == 2) {
+                    alert("Input tidak dapat di hapus");
+                    return false;
+                }
+                i--;
+                console.log($("#div" + i + "a"))
+                $("#div" + i + "a").remove();
+            })
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            var i = 2;
+            $('#add-vendor-pembanding').click(function (event) {
+                var div = $(document.createElement('div')).attr("id", 'div' + i + "b");
+                div.after()
+                    .html('<div class="row">\
+                            <div  class="col-sm-2">\
+                                <div class="form-group">\
+                                    <input type="text"' + i + ' "id="nama_perusahaan_pembanding"' + i +
+                        '" class="form-control" name="nama_perusahaan_pembanding"' + i + '">\
+                                </div>\
+                            </div>\
+                            <div class="col-sm-2">\
+                                <div class="form-group">\
+                                    <input type="text" class="form-control" name="lokasi_perusahaan_pembanding"' + i + '">\
+                                </div>\
+                            </div>\
+                            <div class="col-sm-2">\
+                                <div class="form-group">\
+                                    <input type="text" class="form-control" name="nama_pic_pembanding"' + i + '">\
+                                </div>\
+                            </div>\
+                            <div class="col-sm-2">\
+                                <div class="form-group">\
+                                    <input type="text" class="form-control" name="no_kontak_pembanding"' + i + '">\
+                                </div>\
+                            </div>\
+                            <div class="col-sm-2">\
+                                <div class="form-group">\
+                                    <input type="text" class="form-control" name="website_pembanding"' + i + '">\
+                                </div>\
+                            </div>\
+                            <div class="col-sm-2">\
+                                <div class="form-group">\
+                                    <input type="text" class="form-control" name="total_penawaran_pembanding"' + i + '">\
+                                </div>\
+                            </div>\
+                            <div class="col-sm-2">\
+                                <div class="form-group">\
+                                    <div class="custom-upload-wrapper">\
+                                        <!-- actual upload which is hidden -->\
+                                        <input type="file" name="file"' + i + ' id="actual-btn"' + i + ' hidden />\
+                                        <!-- our custom upload button -->\
+                                        <label class="custom-upload" for="actual-btn"' + i + '>\
+                                            <ion-icon size="large" name="cloud-upload"></ion-icon>\
+                                        </label>\
+                                        <br />\
+                                        <!-- name of file chosen -->\
+                                        <span id="file-chosen"' + i + '>No file chosen</span>\
+                                    </div>\
+                                </div>\
+                            </div>\
+                        </div>')
+                div.appendTo("#group-vendor-pembanding");
+                i++;
+
+            });
+
+            $("#hapus-vendor-pembanding").click(function () {
+                if (i == 2) {
+                    alert("Input tidak dapat di hapus");
+                    return false;
+                }
+                i--;
+                $("#div" + i + "b").remove();
+            })
+        });
+    </script>
+
+
+
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
